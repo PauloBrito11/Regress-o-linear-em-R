@@ -1,2 +1,2 @@
 # Regressão linear simples
-Processo de realização linear, em R, com o auxílio da biblioteca "Corrgram"
+Processo de regressão linear, em R, com o auxílio da biblioteca "Corrgram"
