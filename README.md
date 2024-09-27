@@ -35,5 +35,14 @@ Resultado:
 
 É importante ressaltar que  a função retorna uma matriz de ordem 2, portanto, possuimos quatro resultados, entretanto, as variáveis se correlacionam com si mesmas, então o resultado de duas colunas é o valor 1, e o resultado das outras duas é a "verdadeira correlação".
 
+Criando o modelo:
+
+```r
+modelo = lm(speed ~ dist, data=cars)
+
+#a função "LM", recebe dois parâmetros: ("formula", "data")
+```
+
+
 
 
