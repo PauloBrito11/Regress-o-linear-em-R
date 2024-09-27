@@ -22,5 +22,18 @@ Nome das colunas (variáveis):
 
 ## Iniciando o processo
 
-Verificando a correlação entre as varíaveis (a função retorna uma matriz de ordem 2, portanto, possuimos quatro resultados, entretanto, as variáveis se correlacionam com si mesmas, então o resultado de duas colunas é 1, e o resultado das outras duas é a "verdadeira correlação"
+Verificando a correlação entre as varíaveis:
+
+```r
+cor(cars)
+```
+
+Resultado:
+
+![image](https://github.com/user-attachments/assets/5bac00b8-12a2-4f64-a8f1-ed2ee268313f)
+
+
+É importante ressaltar que  a função retorna uma matriz de ordem 2, portanto, possuimos quatro resultados, entretanto, as variáveis se correlacionam com si mesmas, então o resultado de duas colunas é o valor 1, e o resultado das outras duas é a "verdadeira correlação".
+
+
 
