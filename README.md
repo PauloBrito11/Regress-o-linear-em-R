@@ -61,10 +61,6 @@ Realizando previsão para uma distância de 22:
 predict(modelo, data.frame(dist = 22))
 ```
 
-Resultado:
-
-![image](https://github.com/user-attachments/assets/0a8748f8-e7f4-4649-86e6-80955dd3be71)
-
 - Método número 2:
 
 ```r
