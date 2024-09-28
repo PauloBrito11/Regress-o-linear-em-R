@@ -55,7 +55,7 @@ Resultado:
 
 Realizando previsão para uma distância de 22:
 
-Método número 1 (utilizando uma função)
+- Método número 1 (utilizando uma função)
 
 ```r
 predict(modelo, data.frame(dist = 22))
@@ -65,7 +65,7 @@ Resultado:
 
 ![image](https://github.com/user-attachments/assets/0a8748f8-e7f4-4649-86e6-80955dd3be71)
 
-Método número 2:
+- Método número 2:
 
 ```r
 modelo$coefficients
