@@ -43,6 +43,40 @@ modelo = lm(speed ~ dist, data=cars)
 #a função "LM", recebe dois parâmetros: ("formula", "data")
 ```
 
+Comparando a linha de melhor ajuste com o conjunto de dados:
+
+```r
+plot(speed ~ dist, data=cars, ylab = "Velocidade", xlab="Distância", main="Carros")
+abline(modelo)
+```
+Resultado:
+
+![image](https://github.com/user-attachments/assets/b9884763-1d76-48d2-b2a8-5b55625908e7)
+
+Realizando previsão para uma distância de 22:
+
+Método número 1 (utilizando uma função)
+
+```r
+predict(modelo, data.frame(dist = 22))
+```
+
+Resultado:
+
+![image](https://github.com/user-attachments/assets/0a8748f8-e7f4-4649-86e6-80955dd3be71)
+
+Método número 2:
+
+```r
+modelo$coefficients
+modelo$coefficients[1] + modelo$coefficients[2] * 22
+```
+
+Resultado de ambos:
+
+![image](https://github.com/user-attachments/assets/185fe6db-bcf0-4d2e-8729-7ed26d748f78)
+
+
 
 
 
